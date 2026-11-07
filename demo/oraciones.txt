@@ -1,0 +1,19 @@
+# --- Lo que la CFG sí resuelve --
+el gato duerme
+las niñas pequeñas leen los libros
+el niño come bien
+maría dice que los niños corren
+las niñas que leen el libro están cansadas
+el hombre vio el gato con el telescopio
+# --- Errores de concordancia (deben rechazarse) --
+el gatos duerme
+los niños corre
+las niñas están cansados
+las niñas que lee el libro están cansadas
+# --- Donde la CFG falla --
+duerme el gato
+canta bien
+el gato duerme el libro
+las niñas que juan vio están cansadas
+maría lo vio
+el niño vio al hombre

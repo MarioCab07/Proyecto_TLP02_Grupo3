@@ -1,0 +1,4 @@
+# Parser de Java y CFG del español: solo biblioteca estándar de Python (3.9+)
+# Demo de comparación (spanish/demo_spacy.py):
+spacy>=3.7
+# Modelo: python -m spacy download es_core_news_sm
