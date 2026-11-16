@@ -1,0 +1,102 @@
+[
+  {
+    "oracion": "El perro duerme.",
+    "etiqueta": "aceptada",
+    "pll_media": -2.5425
+  },
+  {
+    "oracion": "La mujer corre.",
+    "etiqueta": "aceptada",
+    "pll_media": -3.7504
+  },
+  {
+    "oracion": "Los hombres comen la manzana.",
+    "etiqueta": "aceptada",
+    "pll_media": -2.7034
+  },
+  {
+    "oracion": "Las niñas leen un libro.",
+    "etiqueta": "aceptada",
+    "pll_media": -0.7622
+  },
+  {
+    "oracion": "El niño grande canta bien.",
+    "etiqueta": "aceptada",
+    "pll_media": -3.6924
+  },
+  {
+    "oracion": "La gata roja come en la casa.",
+    "etiqueta": "aceptada",
+    "pll_media": -2.5083
+  },
+  {
+    "oracion": "Los gatos pequeños duermen.",
+    "etiqueta": "aceptada",
+    "pll_media": -2.5324
+  },
+  {
+    "oracion": "María dice que el perro corre.",
+    "etiqueta": "aceptada",
+    "pll_media": -3.2778
+  },
+  {
+    "oracion": "El libro de la niña es rojo.",
+    "etiqueta": "aceptada",
+    "pll_media": -3.2639
+  },
+  {
+    "oracion": "Los hombres que corren están cansados.",
+    "etiqueta": "aceptada",
+    "pll_media": -1.8944
+  },
+  {
+    "oracion": "Las perro duermen.",
+    "etiqueta": "rechazada",
+    "pll_media": -6.6032
+  },
+  {
+    "oracion": "El mujer corre.",
+    "etiqueta": "rechazada",
+    "pll_media": -7.284
+  },
+  {
+    "oracion": "Los hombres come la manzana.",
+    "etiqueta": "rechazada",
+    "pll_media": -3.4975
+  },
+  {
+    "oracion": "Las niñas leen un libros.",
+    "etiqueta": "rechazada",
+    "pll_media": -3.3361
+  },
+  {
+    "oracion": "El niño grande cantan bien.",
+    "etiqueta": "rechazada",
+    "pll_media": -4.8687
+  },
+  {
+    "oracion": "La gata rojo come en la casa.",
+    "etiqueta": "rechazada",
+    "pll_media": -3.0287
+  },
+  {
+    "oracion": "Los gatos pequeños duerme.",
+    "etiqueta": "rechazada",
+    "pll_media": -4.6908
+  },
+  {
+    "oracion": "María dice que el perro corren.",
+    "etiqueta": "rechazada",
+    "pll_media": -4.5204
+  },
+  {
+    "oracion": "El libro de la niña son rojo.",
+    "etiqueta": "rechazada",
+    "pll_media": -4.7065
+  },
+  {
+    "oracion": "Los hombres que corren están cansada.",
+    "etiqueta": "rechazada",
+    "pll_media": -3.8178
+  }
+]

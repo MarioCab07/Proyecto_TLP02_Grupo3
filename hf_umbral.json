@@ -1,0 +1,8 @@
+{
+  "modelo": "dccuchile/bert-base-spanish-wwm-cased",
+  "metrica": "PLL media por token",
+  "umbral": -3.30695,
+  "exactitud_balanceada_calibracion": 0.8500000000000001,
+  "n_calibracion": 20,
+  "fecha": "2026-11-16T00:33:19.059+00:00"
+}

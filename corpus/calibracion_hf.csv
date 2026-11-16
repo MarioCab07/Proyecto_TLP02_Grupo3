@@ -1,0 +1,21 @@
+oracion,etiqueta
+El perro duerme.,aceptada
+La mujer corre.,aceptada
+Los hombres comen la manzana.,aceptada
+Las niñas leen un libro.,aceptada
+El niño grande canta bien.,aceptada
+La gata roja come en la casa.,aceptada
+Los gatos pequeños duermen.,aceptada
+María dice que el perro corre.,aceptada
+El libro de la niña es rojo.,aceptada
+Los hombres que corren están cansados.,aceptada
+Las perro duermen.,rechazada
+El mujer corre.,rechazada
+Los hombres come la manzana.,rechazada
+Las niñas leen un libros.,rechazada
+El niño grande cantan bien.,rechazada
+La gata rojo come en la casa.,rechazada
+Los gatos pequeños duerme.,rechazada
+María dice que el perro corren.,rechazada
+El libro de la niña son rojo.,rechazada
+Los hombres que corren están cansada.,rechazada
