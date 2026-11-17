@@ -42,6 +42,7 @@ fase1/
 2. venv\Scripts\activate (Windows) / source venv/bin/activate (Linux, Mac)
 3. pip install -r requirements.txt
 4. python -m spacy download es_core_news_sm
+5. python -m pip install matplotlib
 
 # --- Parser de Java ---
 - python demo_java.py                         # demo con casos integrados
@@ -56,11 +57,12 @@ fase1/
 - python -m spanish.demo_es                   # 17 oraciones, fallas, crecimiento y experimento a^n b^n c^n
 - python -m spanish.demo_es --arboles         # agrega el árbol de cada oración aceptada
 - python -m spanish.demo_spacy                # las mismas 17 oraciones con spaCy
+- python -m spanish.conflictos_ll1.py 
 
 # --- Analizar oraciones propias en español ---
 - python analizar_es.py                       # modo interactivo (línea vacía o "salir" termina)
-- python analizar_es.py "el gato duerme"      # una oración
-- python analizar_es.py "oración 1" "oración 2"   # varias oraciones
+- python analizar_es.py "las niñas que leen el libro están cansadas"      # una oración
+- python analizar_es.py "el gato duerme"  # varias oraciones
 - python analizar_es.py demo/oraciones.txt    # archivo con una oración por línea (# = comentario)
 - python analizar_es.py --todos "..."         # si es ambigua, imprime todos los árboles
 - python analizar_es.py --spacy "..."         # agrega el análisis de spaCy

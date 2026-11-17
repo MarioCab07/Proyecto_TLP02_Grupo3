@@ -43,40 +43,23 @@ LEXICON = {k: set(v.split()) for k, v in LEXICON_RAW.items()}
 
 def build_rules():
     R = defaultdict(list)
-    for n in NUMBERS:
-        # Oración: sujeto + predicado verbal, concordando en número
-        R["O"].append([f"SNx_{n}", f"SV_{n}"])
-        for g in GENDERS:
-            R[f"SNx_{n}"].append([f"SN_{g}{n}"])
-            R["SNobj"].append([f"SN_{g}{n}"])
     for g in GENDERS:
         for n in NUMBERS:
             gn = g + n
-            # Oración copulativa: el adjetivo atributo concuerda con el sujeto (g y n)
-            R["O"].append([f"SN_{gn}", f"Cop_{n}", f"Adj_{gn}"])
-            # Sintagma nominal: Det y núcleo concuerdan
+            R["O"].append([f"SN_{gn}", f"Pred_{gn}"])
+            R[f"Pred_{gn}"] += [[f"SV_{n}"], [f"Cop_{n}", f"Adj_{gn}"]]
+            R["SNobj"].append([f"SN_{gn}"])
             R[f"SN_{gn}"].append([f"Det_{gn}", f"Nom_{gn}"])
-            # Nominal con modificadores (sin recursión izquierda)
-            R[f"Nom_{gn}"] += [
-                [f"N_{gn}"],
-                [f"N_{gn}", f"Adj_{gn}"],
-                [f"N_{gn}", "SP"],
-                [f"N_{gn}", f"Adj_{gn}", "SP"],
-                [f"N_{gn}", f"Rel_{n}"],   # relativa: su verbo concuerda con el antecedente
-            ]
+            R[f"Nom_{gn}"].append([f"N_{gn}", f"Mod_{gn}"])
+            R[f"Mod_{gn}"] += [[f"Adj_{gn}", "SPopc"], ["SP"], [f"Rel_{n}"], ["ε"]]
     R["SN_ms"].append(["PropN_ms"])
     R["SN_fs"].append(["PropN_fs"])
+    R["SPopc"] += [["SP"], ["ε"]]
     for n in NUMBERS:
         R[f"Rel_{n}"].append(["que", f"SV_{n}"])
-        R[f"SV_{n}"] += [
-            [f"V_{n}"],
-            [f"V_{n}", "SNobj"],
-            [f"V_{n}", "SNobj", "SP"],      # SP adjunta al verbo
-            [f"V_{n}", "SP"],
-            [f"V_{n}", "Adv"],
-            [f"V_{n}", "SNobj", "Adv"],
-            [f"Vdec_{n}", "que", "O"],      # completiva
-        ]
+        R[f"SV_{n}"] += [[f"V_{n}", f"VP1_{n}"], [f"Vdec_{n}", "que", "O"]]
+        R[f"VP1_{n}"] += [["SNobj", "Cola"], ["SP"], ["Adv"], ["ε"]]
+    R["Cola"] += [["SP"], ["Adv"], ["ε"]]
     R["SP"].append(["Prep", "SNobj"])
     return dict(R)
 

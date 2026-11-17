@@ -1,0 +1,61 @@
+id,nivel,oracion,etiqueta_esperada,fenomeno,estructura_esperada,n_lecturas_esperadas,hipotesis_cfg,palabras_fuera_lexico,notas
+S01,1,El gato duerme.,aceptada,SN + verbo intransitivo,[O [SN el gato] [SV duerme]],1,acepta,,
+S03,1,Los niños corren.,aceptada,SN plural + verbo intransitivo,[O [SN los niños] [SV corren]],1,acepta,,
+S05,1,Juan lee el libro.,aceptada,nombre propio + verbo transitivo,[O [SN juan] [SV lee [SN el libro]]],1,acepta,,
+S10,1,El niño es feliz.,aceptada,copulativa ser + adjetivo,[O [SN el niño] [SV es [Atr feliz]]],1,acepta,,
+S11,1,Las casas son grandes.,aceptada,copulativa plural,[O [SN las casas] [SV son [Atr grandes]]],1,acepta,,
+S13,1,Los gato duermen.,rechazada,error: concordancia determinante-sustantivo (número),,0,rechaza,,
+S14,1,La gato duerme.,rechazada,error: concordancia determinante-sustantivo (género),,0,rechaza,,
+S15,1,El gato duermen.,rechazada,error: concordancia sujeto-verbo (número),,0,rechaza,,
+S17,2,El gato pequeño duerme bien.,aceptada,adjetivo posnominal + adverbio,[O [SN el gato pequeño] [SV duerme [Adv bien]]],1,acepta,,
+S18,2,La niña lee el libro rojo.,aceptada,adjetivo en el objeto,[O [SN la niña] [SV lee [SN el libro rojo]]],1,acepta,,
+S19,2,Los niños ven las casas grandes.,aceptada,plural + adjetivo invariable en género,[O [SN los niños] [SV ven [SN las casas grandes]]],1,acepta,,
+S20,2,El gato de la niña duerme.,aceptada,SP modificador del sujeto,[O [SN el gato [SP de [SN la niña]]] [SV duerme]],1,acepta,,
+S21,2,La mujer duerme en la casa.,aceptada,SP adjunto a verbo intransitivo,[O [SN la mujer] [SV duerme [SP en [SN la casa]]]],1,acepta,,
+S22,2,El hombre que corre canta.,aceptada,relativa de sujeto,[O [SN el hombre [Rel que [SV corre]]] [SV canta]],1,acepta,,
+S23,2,La mujer dice que el niño duerme.,aceptada,completiva (un nivel),[O [SN la mujer] [SV dice [Comp que [O [SN el niño] [SV duerme]]]]],1,acepta,,
+S24,2,Los gatos corren rápidamente.,aceptada,adverbio de modo,[O [SN los gatos] [SV corren [Adv rápidamente]]],1,acepta,,
+S25,2,El niño pequeño está cansado.,aceptada,copulativa con estar + adjetivo en el sujeto,[O [SN el niño pequeño] [SV está [Atr cansado]]],1,acepta,,
+S26,2,El niño vio la mesa roja ayer.,aceptada,pretérito + adverbio temporal final,[O [SN el niño] [SV vio [SN la mesa roja] [Adv ayer]]],1,acepta,,
+S27,2,La mesa lee la casa.,aceptada,anomalía semántica con sintaxis correcta,[O [SN la mesa] [SV lee [SN la casa]]],1,acepta,,"La etiqueta evalúa solo la buena formación sintáctica, no el sentido."
+S28,2,El gato pequeña duerme.,rechazada,error: concordancia sustantivo-adjetivo (género),,0,rechaza,,
+S29,2,La casa es rojo.,rechazada,error: concordancia del atributo (género),,0,rechaza,,
+S30,2,El niño que corren duerme.,rechazada,error: concordancia relativa-antecedente (número),,0,rechaza,,
+S31,2,El niño dice que el gato duermen.,rechazada,error: concordancia sujeto-verbo en la completiva,,0,rechaza,,
+S32,2,El niño duerme en la parque.,rechazada,error: concordancia determinante-sustantivo dentro de SP,,0,rechaza,,
+S33,3,El niño ve el gato con el telescopio.,aceptada,ambigüedad estructural: adjunción del SP,[O [SN el niño] [SV ve [SN el gato] [SP con [SN el telescopio]]]] || [O [SN el niño] [SV ve [SN el gato [SP con [SN el telescopio]]]]],2,acepta,,Lectura 1: SP instrumental del verbo. Lectura 2: SP modifica a 'gato'.
+S34,3,La niña ve el perro en el parque.,aceptada,ambigüedad estructural: adjunción del SP,[O [SN la niña] [SV ve [SN el perro] [SP en [SN el parque]]]] || [O [SN la niña] [SV ve [SN el perro [SP en [SN el parque]]]]],2,acepta,,Lectura 1: lugar de la acción. Lectura 2: SP modifica a 'perro'.
+S35,3,El niño dice que la mujer piensa que el hombre dice que el gato duerme.,aceptada,completivas anidadas (tres niveles),[O [SN el niño] [SV dice [Comp que [O [SN la mujer] [SV piensa [Comp que [O [SN el hombre] [SV dice [Comp que [O [SN el gato] [SV duerme]]]]]]]]]]],1,acepta,,
+S36,3,El gato que ve el perro que come la manzana corre.,aceptada,relativas anidadas,[O [SN el gato [Rel que [SV ve [SN el perro [Rel que [SV come [SN la manzana]]]]]]] [SV corre]],1,acepta,,La relativa interna modifica a 'perro'.
+S37,3,El niño que ve las gatas duerme.,aceptada,concordancia a distancia (sujeto-verbo con relativa intercalada),[O [SN el niño [Rel que [SV ve [SN las gatas]]]] [SV duerme]],1,acepta,,
+S38,3,La mujer que corre está cansada.,aceptada,concordancia a distancia (atributo con relativa intercalada),[O [SN la mujer [Rel que [SV corre]]] [SV está [Atr cansada]]],1,acepta,,
+S39,3,El hombre con los perros duerme.,aceptada,SP intercalado con atractor plural (control),[O [SN el hombre [SP con [SN los perros]]] [SV duerme]],1,acepta,,
+S40,3,Duerme bien.,aceptada,sujeto nulo (pro-drop),[O [SV duerme [Adv bien]]],1,rechaza,,Fuera de la gramática: exige SN sujeto explícito.
+S41,3,Duerme el gato.,aceptada,sujeto pospuesto (orden VS),[O [SV duerme] [SN el gato]],1,rechaza,,
+S42,3,El niño y la niña duermen.,aceptada,coordinación nominal,[O [SN [SN el niño] y [SN la niña]] [SV duermen]],1,rechaza,y,
+S43,3,El gato no duerme.,aceptada,negación,[O [SN el gato] [SV no duerme]],1,rechaza,no,
+S44,3,La mujer que el niño ve duerme.,aceptada,relativa de objeto,[O [SN la mujer [Rel que [SN el niño] [SV ve]]] [SV duerme]],1,rechaza,,La gramática solo cubre relativas de sujeto.
+S45,3,El niño pequeño que corre duerme.,aceptada,adjetivo + relativa en el mismo SN,[O [SN el niño pequeño [Rel que [SV corre]]] [SV duerme]],1,rechaza,,Combinación de modificadores no prevista en la gramática.
+S46,3,El niño que ve las gatas duermen.,rechazada,error: concordancia a distancia (atractor 'gatas'),,0,rechaza,,
+S47,3,El hombre con los perros duermen.,rechazada,error: atractor plural dentro de SP,,0,rechaza,,
+S48,3,La casa de los niños son roja.,rechazada,"error: atractor plural en SP, copulativa",,0,rechaza,,
+S49,3,El niño dice que los gatos que corre duermen.,rechazada,error: concordancia en relativa dentro de completiva,,0,rechaza,,
+S50,3,La mujer que corre está cansado.,rechazada,error: concordancia del atributo a distancia (género),,0,rechaza,,
+S51,2,El gato rojo duerme en la casa.,aceptada,adjetivo nominal + adjunto preposicional verbal,[O [SN el gato rojo] [SV duerme [SP en [SN la casa]]]],1,acepta,,Combina modificador nominal y complemento locativo en un mismo enunciado.
+S52,2,La mujer que canta lee el libro.,aceptada,relativa de sujeto + objeto directo,[O [SN la mujer [Rel que [SV canta]]] [SV lee [SN el libro]]],1,acepta,,Prueba una relativa dentro del sujeto junto con verbo transitivo principal.
+S53,2,El niño duerme bien en la casa.,aceptada,adverbio seguido de SP verbal,[O [SN el niño] [SV duerme [Adv bien] [SP en [SN la casa]]]],1,rechaza,,Oración gramatical; la CFG actual no combina Adv y SP sucesivos dentro de VP1.
+S54,2,El niño ve las gato en la casa.,rechazada,error: concordancia determinante-sustantivo en objeto con adjunto,,0,rechaza,,Error interno del objeto; se añade SP verbal para incrementar la complejidad.
+S55,2,La mujer que corren lee el libro.,rechazada,error: concordancia antecedente-verbo en relativa,,0,rechaza,,El antecedente singular mujer no concuerda con corren.
+S56,2,Los gatos que corren duerme bien.,rechazada,error: concordancia del verbo principal con sujeto modificado,,0,rechaza,,"Relativa plural correcta, pero verbo principal singular."
+S57,3,El niño duerme y la niña canta.,aceptada,coordinación de dos oraciones,[Coord [O [SN el niño] [SV duerme]] y [O [SN la niña] [SV canta]]],1,rechaza,y,Coordinación oracional no modelada por O; la conjunción no está en el léxico cerrado original.
+S58,3,El gato no duerme en la casa.,aceptada,negación verbal con SP,[O [SN el gato] [SV [Neg no] duerme [SP en [SN la casa]]]],1,rechaza,no,La CFG no incluye negación pre-verbal; no pertenece al léxico original.
+S59,3,El libro que la niña lee es rojo.,aceptada,relativa de objeto con antecedente y atributo,[O [SN el libro [Rel que [SN la niña] [SV lee]]] [SV es [Atr rojo]]],1,rechaza,,La relativa introduce sujeto explícito y objeto relativo omitido; fuera de Rel_n → que SV_n.
+S60,3,El hombre dice que la mujer que corre está cansada.,aceptada,completiva con relativa interna y predicado copulativo,[O [SN el hombre] [SV dice [Comp que [O [SN la mujer [Rel que [SV corre]]] [SV está [Atr cansada]]]]]],1,acepta,,"Combina subordinación completiva, relativa de sujeto y atributo concordado."
+S61,3,El niño que corre y canta duerme.,aceptada,coordinación verbal en oración relativa,[O [SN el niño [Rel que [SV [Coord corre y canta]]]] [SV duerme]],1,rechaza,y,La relativa combina dos predicados coordinados; CFG sin coordinación.
+S62,3,El hombre con los perros que corren duerme.,aceptada,atractor plural dentro de SP con relativa anidada,[O [SN el hombre [SP con [SN los perros [Rel que [SV corren]]]]] [SV duerme]],1,acepta,,"El verbo principal concuerda con hombre (singular), no con perros (plural)."
+S63,3,El niño que ve las gatas que corren duermen.,rechazada,error: concordancia a distancia con dos relativas anidadas,,0,rechaza,,El sujeto principal niño es singular; el verbo principal duermen es plural.
+S64,3,El niño dice que la mujer que corren duerme.,rechazada,error: concordancia de relativa dentro de completiva,,0,rechaza,,"El antecedente mujer es singular, pero corren es plural."
+S65,3,El hombre con los perros que corren duermen.,rechazada,error: atracción del plural en SP con relativa,,0,rechaza,,El sujeto principal hombre es singular aunque perros y corren sean plurales.
+S66,3,La niña que ve el gato está cansado.,rechazada,error: concordancia de atributo a distancia,,0,rechaza,,El atributo masculino cansado no concuerda con niña.
+S67,3,El libro que la niña leen es rojo.,rechazada,error: concordancia en relativa de objeto,,0,rechaza,,La niña (sujeto singular de la relativa) no concuerda con leen; esta forma de relativa también queda fuera de la CFG.
+S68,3,La mujer dice que los gatos que corren duerme.,rechazada,error: concordancia principal dentro de completiva con relativa,,0,rechaza,,El sujeto plural gatos en la completiva no concuerda con duerme.

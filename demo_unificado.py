@@ -10,7 +10,15 @@ sys.setrecursionlimit(10000)
 print("=== Java (gramática BNF de ll1.py) ===")
 for src in ["int x = 1 + 2 * 3;",
             "if (a) if (b) x = 1; else x = 2;",
-            "int x = ;"]:
+             """
+int a = ;
+int suma = 0;
+while (b < 5) {
+    if (i != 3) suma = suma + i; else suma = suma - 1;
+    i = i + 1;
+}
+if(suma>100) i = -1;
+"""]:
     trees, err = parse_all(src)
     print(f"{src!r}: {len(trees)} árbol(es)" + (f" — {err}" if err else ""))
 
