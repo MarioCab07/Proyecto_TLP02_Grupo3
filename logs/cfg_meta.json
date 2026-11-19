@@ -1,0 +1,8 @@
+{
+  "enfoque": "parser propio (retroceso) sobre CFG G2",
+  "max_parses": 50,
+  "python": "3.11.0",
+  "plataforma": "Windows-10-10.0.26200-SP0",
+  "fecha_corrida": "2026-11-16T00:17:30.677+00:00",
+  "n_oraciones": 60
+}

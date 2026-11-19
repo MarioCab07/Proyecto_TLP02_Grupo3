@@ -1,0 +1,301 @@
+﻿enfoque,id,nivel,oracion,esperada,predicha,clasificacion,grupo,resultado_estructura
+cfg,S01,1,El gato duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S03,1,Los niños corren.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S05,1,Juan lee el libro.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S10,1,El niño es feliz.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S11,1,Las casas son grandes.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S13,1,Los gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S14,1,La gato duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S15,1,El gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S17,2,El gato pequeño duerme bien.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S18,2,La niña lee el libro rojo.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S19,2,Los niños ven las casas grandes.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S20,2,El gato de la niña duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S21,2,La mujer duerme en la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S22,2,El hombre que corre canta.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S23,2,La mujer dice que el niño duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S24,2,Los gatos corren rápidamente.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S25,2,El niño pequeño está cansado.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S26,2,El niño vio la mesa roja ayer.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S27,2,La mesa lee la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S28,2,El gato pequeña duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S29,2,La casa es rojo.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S30,2,El niño que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S31,2,El niño dice que el gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S32,2,El niño duerme en la parque.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S33,3,El niño ve el gato con el telescopio.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S34,3,La niña ve el perro en el parque.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S35,3,El niño dice que la mujer piensa que el hombre dice que el gato duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S36,3,El gato que ve el perro que come la manzana corre.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S37,3,El niño que ve las gatas duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S38,3,La mujer que corre está cansada.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S39,3,El hombre con los perros duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S40,3,Duerme bien.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+cfg,S41,3,Duerme el gato.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+cfg,S42,3,El niño y la niña duermen.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+cfg,S43,3,El gato no duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+cfg,S44,3,La mujer que el niño ve duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+cfg,S45,3,El niño pequeño que corre duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+cfg,S46,3,El niño que ve las gatas duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S47,3,El hombre con los perros duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S48,3,La casa de los niños son roja.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S49,3,El niño dice que los gatos que corre duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S50,3,La mujer que corre está cansado.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S51,2,El gato rojo duerme en la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S52,2,La mujer que canta lee el libro.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S53,2,El niño duerme bien en la casa.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+cfg,S54,2,El niño ve las gato en la casa.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S55,2,La mujer que corren lee el libro.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S56,2,Los gatos que corren duerme bien.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S57,3,El niño duerme y la niña canta.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+cfg,S58,3,El gato no duerme en la casa.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+cfg,S59,3,El libro que la niña lee es rojo.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+cfg,S60,3,El hombre dice que la mujer que corre está cansada.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S61,3,El niño que corre y canta duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+cfg,S62,3,El hombre con los perros que corren duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+cfg,S63,3,El niño que ve las gatas que corren duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S64,3,El niño dice que la mujer que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S65,3,El hombre con los perros que corren duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S66,3,La niña que ve el gato está cansado.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S67,3,El libro que la niña leen es rojo.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+cfg,S68,3,La mujer dice que los gatos que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S01,1,El gato duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S03,1,Los niños corren.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S05,1,Juan lee el libro.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S10,1,El niño es feliz.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S11,1,Las casas son grandes.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S13,1,Los gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S14,1,La gato duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S15,1,El gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S17,2,El gato pequeño duerme bien.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S18,2,La niña lee el libro rojo.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S19,2,Los niños ven las casas grandes.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S20,2,El gato de la niña duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S21,2,La mujer duerme en la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S22,2,El hombre que corre canta.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S23,2,La mujer dice que el niño duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S24,2,Los gatos corren rápidamente.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S25,2,El niño pequeño está cansado.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S26,2,El niño vio la mesa roja ayer.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S27,2,La mesa lee la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S28,2,El gato pequeña duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S29,2,La casa es rojo.,rechazada,aceptada,FP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S30,2,El niño que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S31,2,El niño dice que el gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S32,2,El niño duerme en la parque.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S33,3,El niño ve el gato con el telescopio.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S34,3,La niña ve el perro en el parque.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S35,3,El niño dice que la mujer piensa que el hombre dice que el gato duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S36,3,El gato que ve el perro que come la manzana corre.,aceptada,rechazada,FN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S37,3,El niño que ve las gatas duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S38,3,La mujer que corre está cansada.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S39,3,El hombre con los perros duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S40,3,Duerme bien.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+spacy,S41,3,Duerme el gato.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+spacy,S42,3,El niño y la niña duermen.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+spacy,S43,3,El gato no duerme.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+spacy,S44,3,La mujer que el niño ve duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+spacy,S45,3,El niño pequeño que corre duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+spacy,S46,3,El niño que ve las gatas duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S47,3,El hombre con los perros duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S48,3,La casa de los niños son roja.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S49,3,El niño dice que los gatos que corre duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S50,3,La mujer que corre está cansado.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S51,2,El gato rojo duerme en la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S52,2,La mujer que canta lee el libro.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S53,2,El niño duerme bien en la casa.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+spacy,S54,2,El niño ve las gato en la casa.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S55,2,La mujer que corren lee el libro.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S56,2,Los gatos que corren duerme bien.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S57,3,El niño duerme y la niña canta.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+spacy,S58,3,El gato no duerme en la casa.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+spacy,S59,3,El libro que la niña lee es rojo.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+spacy,S60,3,El hombre dice que la mujer que corre está cansada.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S61,3,El niño que corre y canta duerme.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+spacy,S62,3,El hombre con los perros que corren duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+spacy,S63,3,El niño que ve las gatas que corren duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S64,3,El niño dice que la mujer que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S65,3,El hombre con los perros que corren duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S66,3,La niña que ve el gato está cansado.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S67,3,El libro que la niña leen es rojo.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+spacy,S68,3,La mujer dice que los gatos que corren duerme.,rechazada,aceptada,FP,CFG_coincide_con_etiqueta,no_aplica
+hf,S01,1,El gato duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S03,1,Los niños corren.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S05,1,Juan lee el libro.,aceptada,rechazada,FN,CFG_coincide_con_etiqueta,no_aplica
+hf,S10,1,El niño es feliz.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S11,1,Las casas son grandes.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S13,1,Los gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S14,1,La gato duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S15,1,El gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S17,2,El gato pequeño duerme bien.,aceptada,rechazada,FN,CFG_coincide_con_etiqueta,no_aplica
+hf,S18,2,La niña lee el libro rojo.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S19,2,Los niños ven las casas grandes.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S20,2,El gato de la niña duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S21,2,La mujer duerme en la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S22,2,El hombre que corre canta.,aceptada,rechazada,FN,CFG_coincide_con_etiqueta,no_aplica
+hf,S23,2,La mujer dice que el niño duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S24,2,Los gatos corren rápidamente.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S25,2,El niño pequeño está cansado.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S26,2,El niño vio la mesa roja ayer.,aceptada,rechazada,FN,CFG_coincide_con_etiqueta,no_aplica
+hf,S27,2,La mesa lee la casa.,aceptada,rechazada,FN,CFG_coincide_con_etiqueta,no_aplica
+hf,S28,2,El gato pequeña duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S29,2,La casa es rojo.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S30,2,El niño que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S31,2,El niño dice que el gato duermen.,rechazada,aceptada,FP,CFG_coincide_con_etiqueta,no_aplica
+hf,S32,2,El niño duerme en la parque.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S33,3,El niño ve el gato con el telescopio.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S34,3,La niña ve el perro en el parque.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S35,3,El niño dice que la mujer piensa que el hombre dice que el gato duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S36,3,El gato que ve el perro que come la manzana corre.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S37,3,El niño que ve las gatas duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S38,3,La mujer que corre está cansada.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S39,3,El hombre con los perros duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S40,3,Duerme bien.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+hf,S41,3,Duerme el gato.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+hf,S42,3,El niño y la niña duermen.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+hf,S43,3,El gato no duerme.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+hf,S44,3,La mujer que el niño ve duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+hf,S45,3,El niño pequeño que corre duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+hf,S46,3,El niño que ve las gatas duermen.,rechazada,aceptada,FP,CFG_coincide_con_etiqueta,no_aplica
+hf,S47,3,El hombre con los perros duermen.,rechazada,aceptada,FP,CFG_coincide_con_etiqueta,no_aplica
+hf,S48,3,La casa de los niños son roja.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S49,3,El niño dice que los gatos que corre duermen.,rechazada,aceptada,FP,CFG_coincide_con_etiqueta,no_aplica
+hf,S50,3,La mujer que corre está cansado.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S51,2,El gato rojo duerme en la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S52,2,La mujer que canta lee el libro.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S53,2,El niño duerme bien en la casa.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+hf,S54,2,El niño ve las gato en la casa.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S55,2,La mujer que corren lee el libro.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S56,2,Los gatos que corren duerme bien.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S57,3,El niño duerme y la niña canta.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+hf,S58,3,El gato no duerme en la casa.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+hf,S59,3,El libro que la niña lee es rojo.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,no_aplica
+hf,S60,3,El hombre dice que la mujer que corre está cansada.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,no_aplica
+hf,S61,3,El niño que corre y canta duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+hf,S62,3,El hombre con los perros que corren duerme.,aceptada,rechazada,FN,CFG_coincide_con_etiqueta,no_aplica
+hf,S63,3,El niño que ve las gatas que corren duermen.,rechazada,aceptada,FP,CFG_coincide_con_etiqueta,no_aplica
+hf,S64,3,El niño dice que la mujer que corren duerme.,rechazada,aceptada,FP,CFG_coincide_con_etiqueta,no_aplica
+hf,S65,3,El hombre con los perros que corren duermen.,rechazada,aceptada,FP,CFG_coincide_con_etiqueta,no_aplica
+hf,S66,3,La niña que ve el gato está cansado.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+hf,S67,3,El libro que la niña leen es rojo.,rechazada,aceptada,FP,CFG_coincide_con_etiqueta,no_aplica
+hf,S68,3,La mujer dice que los gatos que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S01,1,El gato duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S03,1,Los niños corren.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S05,1,Juan lee el libro.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S10,1,El niño es feliz.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S11,1,Las casas son grandes.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S13,1,Los gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S14,1,La gato duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S15,1,El gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S17,2,El gato pequeño duerme bien.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S18,2,La niña lee el libro rojo.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S19,2,Los niños ven las casas grandes.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S20,2,El gato de la niña duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S21,2,La mujer duerme en la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S22,2,El hombre que corre canta.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S23,2,La mujer dice que el niño duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S24,2,Los gatos corren rápidamente.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S25,2,El niño pequeño está cansado.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S26,2,El niño vio la mesa roja ayer.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S27,2,La mesa lee la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,estructura_diferente
+llm_zero,S28,2,El gato pequeña duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S29,2,La casa es rojo.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S30,2,El niño que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S31,2,El niño dice que el gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S32,2,El niño duerme en la parque.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S33,3,El niño ve el gato con el telescopio.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,lecturas_distintas
+llm_zero,S34,3,La niña ve el perro en el parque.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,lecturas_distintas
+llm_zero,S35,3,El niño dice que la mujer piensa que el hombre dice que el gato duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,estructura_diferente
+llm_zero,S36,3,El gato que ve el perro que come la manzana corre.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S37,3,El niño que ve las gatas duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,estructura_diferente
+llm_zero,S38,3,La mujer que corre está cansada.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S39,3,El hombre con los perros duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S40,3,Duerme bien.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_zero,S41,3,Duerme el gato.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_zero,S42,3,El niño y la niña duermen.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_zero,S43,3,El gato no duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_zero,S44,3,La mujer que el niño ve duerme.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,coincide
+llm_zero,S45,3,El niño pequeño que corre duerme.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,estructura_diferente
+llm_zero,S46,3,El niño que ve las gatas duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S47,3,El hombre con los perros duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S48,3,La casa de los niños son roja.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S49,3,El niño dice que los gatos que corre duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S50,3,La mujer que corre está cansado.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S51,2,El gato rojo duerme en la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S52,2,La mujer que canta lee el libro.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S53,2,El niño duerme bien en la casa.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,coincide
+llm_zero,S54,2,El niño ve las gato en la casa.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S55,2,La mujer que corren lee el libro.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S56,2,Los gatos que corren duerme bien.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S57,3,El niño duerme y la niña canta.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_zero,S58,3,El gato no duerme en la casa.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_zero,S59,3,El libro que la niña lee es rojo.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,coincide
+llm_zero,S60,3,El hombre dice que la mujer que corre está cansada.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S61,3,El niño que corre y canta duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_zero,S62,3,El hombre con los perros que corren duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_zero,S63,3,El niño que ve las gatas que corren duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S64,3,El niño dice que la mujer que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S65,3,El hombre con los perros que corren duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S66,3,La niña que ve el gato está cansado.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S67,3,El libro que la niña leen es rojo.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_zero,S68,3,La mujer dice que los gatos que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S01,1,El gato duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S03,1,Los niños corren.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S05,1,Juan lee el libro.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,sin_estructura
+llm_few,S10,1,El niño es feliz.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S11,1,Las casas son grandes.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S13,1,Los gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S14,1,La gato duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S15,1,El gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S17,2,El gato pequeño duerme bien.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S18,2,La niña lee el libro rojo.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S19,2,Los niños ven las casas grandes.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,estructura_diferente
+llm_few,S20,2,El gato de la niña duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S21,2,La mujer duerme en la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S22,2,El hombre que corre canta.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S23,2,La mujer dice que el niño duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S24,2,Los gatos corren rápidamente.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S25,2,El niño pequeño está cansado.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S26,2,El niño vio la mesa roja ayer.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,estructura_diferente
+llm_few,S27,2,La mesa lee la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,sin_estructura
+llm_few,S28,2,El gato pequeña duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S29,2,La casa es rojo.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S30,2,El niño que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S31,2,El niño dice que el gato duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S32,2,El niño duerme en la parque.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S33,3,El niño ve el gato con el telescopio.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,lecturas_distintas
+llm_few,S34,3,La niña ve el perro en el parque.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,lecturas_distintas
+llm_few,S35,3,El niño dice que la mujer piensa que el hombre dice que el gato duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,estructura_diferente
+llm_few,S36,3,El gato que ve el perro que come la manzana corre.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S37,3,El niño que ve las gatas duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S38,3,La mujer que corre está cansada.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S39,3,El hombre con los perros duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S40,3,Duerme bien.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_few,S41,3,Duerme el gato.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_few,S42,3,El niño y la niña duermen.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_few,S43,3,El gato no duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_few,S44,3,La mujer que el niño ve duerme.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,coincide
+llm_few,S45,3,El niño pequeño que corre duerme.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,coincide
+llm_few,S46,3,El niño que ve las gatas duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S47,3,El hombre con los perros duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S48,3,La casa de los niños son roja.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S49,3,El niño dice que los gatos que corre duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S50,3,La mujer que corre está cansado.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S51,2,El gato rojo duerme en la casa.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,estructura_diferente
+llm_few,S52,2,La mujer que canta lee el libro.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S53,2,El niño duerme bien en la casa.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,coincide
+llm_few,S54,2,El niño ve las gato en la casa.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S55,2,La mujer que corren lee el libro.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S56,2,Los gatos que corren duerme bien.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S57,3,El niño duerme y la niña canta.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_few,S58,3,El gato no duerme en la casa.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_few,S59,3,El libro que la niña lee es rojo.,aceptada,aceptada,TP,CFG_difiere_de_etiqueta,coincide
+llm_few,S60,3,El hombre dice que la mujer que corre está cansada.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,coincide
+llm_few,S61,3,El niño que corre y canta duerme.,aceptada,rechazada,FN,CFG_difiere_de_etiqueta,no_aplica
+llm_few,S62,3,El hombre con los perros que corren duerme.,aceptada,aceptada,TP,CFG_coincide_con_etiqueta,sin_estructura
+llm_few,S63,3,El niño que ve las gatas que corren duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S64,3,El niño dice que la mujer que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S65,3,El hombre con los perros que corren duermen.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S66,3,La niña que ve el gato está cansado.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S67,3,El libro que la niña leen es rojo.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica
+llm_few,S68,3,La mujer dice que los gatos que corren duerme.,rechazada,rechazada,TN,CFG_coincide_con_etiqueta,no_aplica

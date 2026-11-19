@@ -1,0 +1,6 @@
+﻿enfoque,produce_estructura,tp_con_referencia,evaluables_formato_y_arbol,completo,parcial,lecturas_extra,mixto,diferente,sin_estructura,arbol_invalido,formato_invalido_tp,errores_estructura,errores_formato_total,respuestas_con_etiquetas_no_permitidas
+cfg,si,27,27,27,0,0,0,0,0,0,0,0,0,0
+spacy,no (no aplica),,,,,,,,,,,,,
+hf,no (no aplica),,,,,,,,,,,,,
+llm_zero,si,31,31,25,2,0,0,1,0,3,0,6,0,0
+llm_few,si,31,28,22,2,0,0,3,0,1,3,6,3,3

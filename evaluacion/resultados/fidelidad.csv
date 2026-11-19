@@ -1,0 +1,5 @@
+﻿enfoque,n_comparadas,acuerdo_con_referencia_pct,n_discrepantes,sigue_gramatica,sigue_etiqueta,sigue_gramatica_pct
+spacy,60,83.3,11,4,7,36.4
+hf,60,63.3,11,3,8,27.3
+llm_zero,60,93.3,11,7,4,63.6
+llm_few,60,93.3,11,7,4,63.6

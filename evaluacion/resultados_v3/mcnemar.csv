@@ -1,0 +1,11 @@
+﻿enfoque_A,enfoque_B,n_comunes,A_acierta_B_falla,B_acierta_A_falla,p_mcnemar_exacto
+cfg,spacy,60,3,7,0.3438
+cfg,hf,60,14,8,0.2863
+cfg,llm_zero,60,0,4,0.125
+cfg,llm_few,60,0,4,0.125
+spacy,hf,60,15,5,0.0414
+spacy,llm_zero,60,5,5,1.0
+spacy,llm_few,60,5,5,1.0
+hf,llm_zero,60,6,16,0.0525
+hf,llm_few,60,6,16,0.0525
+llm_zero,llm_few,60,0,0,1.0

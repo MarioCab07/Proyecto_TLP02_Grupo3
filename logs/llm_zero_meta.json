@@ -1,0 +1,15 @@
+{
+  "enfoque": "LLM Gemini, zero-shot con las reglas de la gramática",
+  "modelo": "gemini-3.5-flash-lite",
+  "sdk_google_genai": "3.3.0",
+  "temperatura": 0.0,
+  "formato_respuesta": "application/json",
+  "prompt_archivo": "prompts\\zero_shot.txt",
+  "prompt_sha256": "5eeb33c27c86ed2473c8ff3bceaedc0c256401a86a06efe44fcfe4552e447cd6",
+  "pausa_entre_llamadas_s": 7.0,
+  "nota": "temperatura 0 no garantiza respuestas idénticas entre corridas; el análisis usa estos logs",
+  "python": "3.11.0",
+  "plataforma": "Windows-10-10.0.26200-SP0",
+  "fecha_corrida": "2026-11-16T01:49:19.265+00:00",
+  "n_oraciones": 60
+}

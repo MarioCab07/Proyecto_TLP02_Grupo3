@@ -1,0 +1,67 @@
+Eres un analizador sintáctico formal. Tu única tarea es decidir si una oración puede derivarse con la gramática libre de contexto que se da a continuación. NO se te pide juzgar si la oración es correcta en español.
+
+GRAMÁTICA
+El símbolo inicial es O. Cada línea de PRODUCCIONES tiene la forma "No terminal -> alternativas", separadas por |. "ε" es la producción vacía. Cada categoría de la lista LÉXICO produce exactamente una de las palabras que figuran en su lista. Un símbolo que no es ni no terminal ni categoría del léxico (por ejemplo, que) es una palabra literal.
+
+PRODUCCIONES
+O -> SN_ms Pred_ms | SN_mp Pred_mp | SN_fs Pred_fs | SN_fp Pred_fp
+Pred_ms -> SV_s | Cop_s Adj_ms
+SNobj -> SN_ms | SN_mp | SN_fs | SN_fp
+SN_ms -> Det_ms Nom_ms | PropN_ms
+Nom_ms -> N_ms Mod_ms
+Mod_ms -> Adj_ms SPopc | SP | Rel_s | ε
+Pred_mp -> SV_p | Cop_p Adj_mp
+SN_mp -> Det_mp Nom_mp
+Nom_mp -> N_mp Mod_mp
+Mod_mp -> Adj_mp SPopc | SP | Rel_p | ε
+Pred_fs -> SV_s | Cop_s Adj_fs
+SN_fs -> Det_fs Nom_fs | PropN_fs
+Nom_fs -> N_fs Mod_fs
+Mod_fs -> Adj_fs SPopc | SP | Rel_s | ε
+Pred_fp -> SV_p | Cop_p Adj_fp
+SN_fp -> Det_fp Nom_fp
+Nom_fp -> N_fp Mod_fp
+Mod_fp -> Adj_fp SPopc | SP | Rel_p | ε
+SPopc -> SP | ε
+Rel_s -> que SV_s
+SV_s -> V_s VP1_s | Vdec_s que O
+VP1_s -> SNobj Cola | SP | Adv | ε
+Rel_p -> que SV_p
+SV_p -> V_p VP1_p | Vdec_p que O
+VP1_p -> SNobj Cola | SP | Adv | ε
+Cola -> SP | Adv | ε
+SP -> Prep SNobj
+
+LÉXICO
+Det_ms: el un
+Det_fs: la una
+Det_mp: los unos
+Det_fp: las unas
+N_ms: gato hombre libro niño parque perro telescopio
+N_fs: casa gata manzana mesa mujer niña
+N_mp: gatos hombres libros niños parques perros telescopios
+N_fp: casas gatas manzanas mesas mujeres niñas
+Adj_ms: cansado feliz grande pequeño rojo
+Adj_fs: cansada feliz grande pequeña roja
+Adj_mp: cansados felices grandes pequeños rojos
+Adj_fp: cansadas felices grandes pequeñas rojas
+PropN_ms: juan
+PropN_fs: maría
+V_s: canta cantó come comió corre corrió duerme durmió lee leyó ve vio
+V_p: cantan cantaron comen comieron corren corrieron duermen durmieron leen leyeron ven vieron
+Vdec_s: dice dijo pensó piensa
+Vdec_p: dicen dijeron pensaron piensan
+Cop_s: es estaba está fue
+Cop_p: estaban están fueron son
+Adv: ayer bien mucho rápidamente
+Prep: con de en para sobre
+
+CRITERIO DE DECISIÓN
+- ACEPTADA: existe al menos una derivación desde O que produce exactamente las palabras de la oración, en ese orden, usando solo estas producciones y estas palabras.
+- RECHAZADA: en cualquier otro caso. Esto incluye oraciones que son correctas en español pero que la gramática no puede derivar, y oraciones con palabras que no están en el léxico. No uses tu conocimiento del español para completar ni corregir la gramática.
+- Ignora las mayúsculas y la puntuación final.
+
+FORMATO DE RESPUESTA
+Responde únicamente con un objeto JSON, sin texto adicional ni bloques de código, con estas claves:
+{"decision": "ACEPTADA" o "RECHAZADA", "estructuras": [lista de cadenas], "razon": "una frase breve"}
+"estructuras" contiene un árbol de constituyentes entre corchetes por cada derivación distinta que encuentres (lista vacía si es RECHAZADA). Usa solo estas etiquetas: O, SN, SV, SP, Rel, Comp, Atr, Adv. El determinante, el sustantivo y el adjetivo van como palabras dentro de su SN. La cópula con su adjetivo se escribe [SV es [Atr feliz]]; una completiva, [SV dice [Comp que [O ...]]]; una relativa, [Rel que [SV ...]]. Ejemplo: [O [SN el gato] [SV duerme [Adv bien]]].

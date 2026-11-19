@@ -1,0 +1,18 @@
+{
+  "enfoque": "spaCy + regla de decisión",
+  "spacy": "3.8.18",
+  "modelo": "core_news_md",
+  "version_modelo": "3.8.0",
+  "pipeline": [
+    "tok2vec",
+    "morphologizer",
+    "parser",
+    "attribute_ruler",
+    "lemmatizer",
+    "ner"
+  ],
+  "python": "3.11.0",
+  "plataforma": "Windows-10-10.0.26200-SP0",
+  "fecha_corrida": "2026-11-16T00:17:57.548+00:00",
+  "n_oraciones": 60
+}

@@ -1,0 +1,17 @@
+{
+  "enfoque": "Hugging Face: PLL de modelo enmascarado + umbral calibrado aparte",
+  "modelo": "dccuchile/bert-base-spanish-wwm-cased",
+  "revision": null,
+  "transformers": "5.23.0",
+  "torch": "2.15.0+cpu",
+  "umbral": -3.30695,
+  "calibracion": {
+    "n_calibracion": 20,
+    "fecha": "2026-11-16T00:33:19.059+00:00"
+  },
+  "dispositivo": "cpu",
+  "python": "3.11.0",
+  "plataforma": "Windows-10-10.0.26200-SP0",
+  "fecha_corrida": "2026-11-16T00:35:34.841+00:00",
+  "n_oraciones": 60
+}

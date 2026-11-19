@@ -1,0 +1,11 @@
+﻿enfoque,grupo,n,sin_decision,TP,FP,TN,FN,precision_pct,precision_ic95_lo,precision_ic95_hi,recall_pct,recall_ic95_lo,recall_ic95_hi,rechazo_correcto_pct,rechazo_correcto_ic95_lo,rechazo_correcto_ic95_hi,exactitud_pct,exactitud_ic95_lo,exactitud_ic95_hi,f1_pct
+cfg,CFG_coincide_con_etiqueta,49,0,27,0,22,0,100.0,87.5,100.0,100.0,87.5,100.0,100.0,85.1,100.0,100.0,92.7,100.0,100.0
+spacy,CFG_coincide_con_etiqueta,49,0,26,2,20,1,92.9,77.4,98.0,96.3,81.7,99.3,90.9,72.2,97.5,93.9,83.5,97.9,94.5
+hf,CFG_coincide_con_etiqueta,49,0,21,8,14,6,72.4,54.3,85.3,77.8,59.2,89.4,63.6,43.0,80.3,71.4,57.6,82.2,75.0
+llm_zero,CFG_coincide_con_etiqueta,49,0,27,0,22,0,100.0,87.5,100.0,100.0,87.5,100.0,100.0,85.1,100.0,100.0,92.7,100.0,100.0
+llm_few,CFG_coincide_con_etiqueta,49,0,27,0,22,0,100.0,87.5,100.0,100.0,87.5,100.0,100.0,85.1,100.0,100.0,92.7,100.0,100.0
+cfg,CFG_difiere_de_etiqueta,11,0,0,0,0,11,,,,0.0,0.0,25.9,,,,0.0,0.0,25.9,0.0
+spacy,CFG_difiere_de_etiqueta,11,0,7,0,0,4,100.0,64.6,100.0,63.6,35.4,84.8,,,,63.6,35.4,84.8,77.8
+hf,CFG_difiere_de_etiqueta,11,0,8,0,0,3,100.0,67.6,100.0,72.7,43.4,90.3,,,,72.7,43.4,90.3,84.2
+llm_zero,CFG_difiere_de_etiqueta,11,0,4,0,0,7,100.0,51.0,100.0,36.4,15.2,64.6,,,,36.4,15.2,64.6,53.3
+llm_few,CFG_difiere_de_etiqueta,11,0,4,0,0,7,100.0,51.0,100.0,36.4,15.2,64.6,,,,36.4,15.2,64.6,53.3

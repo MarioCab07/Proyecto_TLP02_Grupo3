@@ -1,0 +1,6 @@
+﻿enfoque,n,sin_decision,TP,FP,TN,FN,precision_pct,precision_ic95_lo,precision_ic95_hi,recall_pct,recall_ic95_lo,recall_ic95_hi,rechazo_correcto_pct,rechazo_correcto_ic95_lo,rechazo_correcto_ic95_hi,exactitud_pct,exactitud_ic95_lo,exactitud_ic95_hi,f1_pct
+cfg,60,0,27,0,22,11,100.0,87.5,100.0,71.1,55.2,83.0,100.0,85.1,100.0,81.7,70.1,89.4,83.1
+spacy,60,0,33,2,20,5,94.3,81.4,98.4,86.8,72.7,94.2,90.9,72.2,97.5,88.3,77.8,94.2,90.4
+hf,60,0,29,8,14,9,78.4,62.8,88.6,76.3,60.8,87.0,63.6,43.0,80.3,71.7,59.2,81.5,77.3
+llm_zero,60,0,31,0,22,7,100.0,89.0,100.0,81.6,66.6,90.8,100.0,85.1,100.0,88.3,77.8,94.2,89.9
+llm_few,60,0,31,0,22,7,100.0,89.0,100.0,81.6,66.6,90.8,100.0,85.1,100.0,88.3,77.8,94.2,89.9
